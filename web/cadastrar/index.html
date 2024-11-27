@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cadastrar roupa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <h4>Cadastrar roupa!</h4>
+            <!-- Formulário HTML estilizado com Bootstrap-->
+            <form method="post" action="cadastrar.jsp">
+            <div class="mb-3">
+              <label for="nomeroupa" class="form-label">Nome da Roupa:</label>
+              <input type="text" class="form-control" id="nRoupa" name="nomeroupa" maxlength="30">
+            </div>
+            <div class="mb-3">
+              <label for="valor" class="form-label">Valor da Roupa:</label>
+              <input type="text" class="form-control" id="vRoupa" name="valor">
+            </div>
+            <div class="mb-3">
+              <label for="marca" class="form-label">Marca da Roupa:</label>
+              <input type="text" class="form-control" id="mRoupa" name="marca" maxlength="30">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        <br>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='../index.html';">Voltar ao Início</button>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    </body>
+</html>
