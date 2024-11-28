@@ -31,19 +31,19 @@
                 <form method="post" action="altera.jsp">
                 <div class="mb-3">
                   <label for="alteraid" class="form-label">Id da Roupa:</label>
-                  <input type="text" class="form-control" id="IdRpAlt" name="id" value="<%= r1.getId()%>" readonly="true">
+                  <input type="text" class="form-control" id="IdRpAlt" name="id" value="<%= r1.getId()%>" readonly="true" style="width: 200px;">
                 </div>
                 <div class="mb-3">
                   <label for="alteranome" class="form-label">Nome da Roupa:</label>
-                  <input type="text" class="form-control" id="NmRpAlt" name="nomeroupa" value="<%= r1.getNomeroupa()%>" maxlength="30">
+                  <input type="text" class="form-control" id="NmRpAlt" name="nomeroupa" value="<%= r1.getNomeroupa()%>" maxlength="30" style="width: 200px;">
                 </div>
                 <div class="mb-3">
                   <label for="alteravalor" class="form-label">Valor da Roupa:</label>
-                  <input type="text" class="form-control" id="ValorRpAlt" name="valor" value="<%= r1.getValorroupa()%>" maxlength="30">
+                  <input type="text" class="form-control" id="ValorRpAlt" name="valor" value="<%= r1.getValorroupa()%>" maxlength="30" style="width: 200px;">
                 </div>
                 <div class="mb-3">
                   <label for="alteramarca" class="form-label">Marca da Roupa:</label>
-                  <input type="text" class="form-control" id="MarcaRpAlt" name="marca" value="<%= r1.getMarcaroupa()%>" maxlength="30">
+                  <input type="text" class="form-control" id="MarcaRpAlt" name="marca" value="<%= r1.getMarcaroupa()%>" maxlength="30" style="width: 200px;">
                 </div>
                   <button type="submit" class="btn btn-primary">Salvar!</button>
                 </form>
